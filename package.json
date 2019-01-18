@@ -1,0 +1,14 @@
+{
+  "name": "dawnmarch.github.io",
+  "description": "My Homepage",
+  "author": "dawnmarch <wjqxhy@qq.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress": "^1.0.0-alpha.32"
+  }
+}
