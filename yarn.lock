@@ -657,6 +657,44 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
+"@fortawesome/fontawesome-common-types@^0.2.12":
+  version "0.2.12"
+  resolved "http://registry.npm.taobao.org/@fortawesome/fontawesome-common-types/download/@fortawesome/fontawesome-common-types-0.2.12.tgz#42baa71f97ca06faeb0b6718fa5ed20c5eefdf07"
+  integrity sha1-QrqnH5fKBvrrC2cY+l7SDF7v3wc=
+
+"@fortawesome/fontawesome-svg-core@^1.2.10":
+  version "1.2.12"
+  resolved "http://registry.npm.taobao.org/@fortawesome/fontawesome-svg-core/download/@fortawesome/fontawesome-svg-core-1.2.12.tgz#9732617b1e484435f6946645d7f9ad248f12c437"
+  integrity sha1-lzJhex5IRDX2lGZF1/mtJI8SxDc=
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.12"
+
+"@fortawesome/free-brands-svg-icons@^5.6.1":
+  version "5.6.3"
+  resolved "http://registry.npm.taobao.org/@fortawesome/free-brands-svg-icons/download/@fortawesome/free-brands-svg-icons-5.6.3.tgz#f4ac2abab83822b341b3b7257c38b9da12ca7395"
+  integrity sha1-9Kwqurg4IrNBs7clfDi52hLKc5U=
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.12"
+
+"@fortawesome/free-regular-svg-icons@^5.6.1":
+  version "5.6.3"
+  resolved "http://registry.npm.taobao.org/@fortawesome/free-regular-svg-icons/download/@fortawesome/free-regular-svg-icons-5.6.3.tgz#b0a44d665c347b56d064a37962e81e8d8a8f2624"
+  integrity sha1-sKRNZlw0e1bQZKN5YugejYqPJiQ=
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.12"
+
+"@fortawesome/free-solid-svg-icons@^5.6.1":
+  version "5.6.3"
+  resolved "http://registry.npm.taobao.org/@fortawesome/free-solid-svg-icons/download/@fortawesome/free-solid-svg-icons-5.6.3.tgz#1d7f6669ccd6a1ea673699e41f7e32c81401a260"
+  integrity sha1-HX9maczWoepnNpnkH34yyBQBomA=
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.12"
+
+"@fortawesome/vue-fontawesome@^0.1.3":
+  version "0.1.5"
+  resolved "http://registry.npm.taobao.org/@fortawesome/vue-fontawesome/download/@fortawesome/vue-fontawesome-0.1.5.tgz#ea70a4d4ad0d6d617048a5b2a2ff33e21fe47d61"
+  integrity sha1-6nCk1K0NbWFwSKWyov8z4h/kfWE=
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "http://registry.npm.taobao.org/@mrmlnc/readdir-enhanced/download/@mrmlnc/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -867,6 +905,13 @@
   integrity sha1-Odo76eOXawYqCeNvg1yHGSINuCU=
   dependencies:
     cross-spawn "^6.0.5"
+
+"@vuepress/plugin-nprogress@1.0.0-alpha.31":
+  version "1.0.0-alpha.31"
+  resolved "http://registry.npm.taobao.org/@vuepress/plugin-nprogress/download/@vuepress/plugin-nprogress-1.0.0-alpha.31.tgz#f250bf20cf613a2b5cc3c0716b7e2d13465d9402"
+  integrity sha1-8lC/IM9hOitcw8Bxa34tE0ZdlAI=
+  dependencies:
+    nprogress "^0.2.0"
 
 "@vuepress/plugin-nprogress@^1.0.0-alpha.32":
   version "1.0.0-alpha.32"
@@ -2400,6 +2445,11 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
+date-fns@^1.30.1:
+  version "1.30.1"
+  resolved "http://registry.npm.taobao.org/date-fns/download/date-fns-1.30.1.tgz#2e71bf0b119153dbb4cc4e88d9ea5acfb50dc05c"
+  integrity sha1-LnG/CxGRU9u0zE6I2epaz7UNwFw=
+
 date-now@^0.1.4:
   version "0.1.4"
   resolved "http://registry.npm.taobao.org/date-now/download/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
@@ -2917,6 +2967,11 @@ extend-shallow@^3.0.0, extend-shallow@^3.0.2:
     assign-symbols "^1.0.0"
     is-extendable "^1.0.1"
 
+extend@~1.2.1:
+  version "1.2.1"
+  resolved "http://registry.npm.taobao.org/extend/download/extend-1.2.1.tgz#a0f5fd6cfc83a5fe49ef698d60ec8a624dd4576c"
+  integrity sha1-oPX9bPyDpf5J72mNYOyKYk3UV2w=
+
 extend@~3.0.2:
   version "3.0.2"
   resolved "http://registry.npm.taobao.org/extend/download/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
@@ -3149,6 +3204,13 @@ gauge@~2.7.3:
     string-width "^1.0.1"
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
+
+geopattern@^1.2.3:
+  version "1.2.3"
+  resolved "http://registry.npm.taobao.org/geopattern/download/geopattern-1.2.3.tgz#de96602e46dba9095ca5774bfb3b36308f7e63fe"
+  integrity sha1-3pZgLkbbqQlcpXdL+zs2MI9+Y/4=
+  dependencies:
+    extend "~1.2.1"
 
 get-port@^3.2.0:
   version "3.2.0"
@@ -7095,6 +7157,20 @@ vuepress-html-webpack-plugin@^3.2.0:
     tapable "^1.0.0"
     toposort "^1.0.0"
     util.promisify "1.0.0"
+
+vuepress-theme-meteorlxy@^1.0.0-alpha.5:
+  version "1.0.0-alpha.5"
+  resolved "http://registry.npm.taobao.org/vuepress-theme-meteorlxy/download/vuepress-theme-meteorlxy-1.0.0-alpha.5.tgz#990974e55953c13aaa6c8bb1b6aa795dccd4e8a4"
+  integrity sha1-mQl05VlTwTqqbIuxtqp5XczU6KQ=
+  dependencies:
+    "@fortawesome/fontawesome-svg-core" "^1.2.10"
+    "@fortawesome/free-brands-svg-icons" "^5.6.1"
+    "@fortawesome/free-regular-svg-icons" "^5.6.1"
+    "@fortawesome/free-solid-svg-icons" "^5.6.1"
+    "@fortawesome/vue-fontawesome" "^0.1.3"
+    "@vuepress/plugin-nprogress" "1.0.0-alpha.31"
+    date-fns "^1.30.1"
+    geopattern "^1.2.3"
 
 vuepress@^1.0.0-alpha.32:
   version "1.0.0-alpha.32"
