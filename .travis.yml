@@ -1,0 +1,27 @@
+language: node_js
+node_js: stable
+git:
+  depth: false
+branches:
+  only:
+    - dev
+
+install:
+  - yarn
+
+script:
+  - yarn docs:build
+
+after_success:
+  - cd ./docs/.vuepress/dist
+  - git init
+  - git config user.name "dawnmarch"
+  - git config user.email "wjqxhy@qq.com"
+  - git add .
+  - git commit -m "Build $(date +%Y%m%d%H%M)"
+  - git push --force --quiet "https://${access_token}@${GH_REPO}" master:master
+
+
+env:
+ global:
+   - GH_REPO: github.com/dawnmarch/dawnmarch.github.io.git
