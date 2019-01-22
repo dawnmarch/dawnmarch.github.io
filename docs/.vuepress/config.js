@@ -1,7 +1,7 @@
 module.exports = {
-    title: 'DawnMarch',
+    title: 'dawnmarch',
 
-    description: 'DawnMarch\'s homepage',
+    description: 'dawnmarch\'s homepage',
 
     head: [
         ['link', {
@@ -23,7 +23,7 @@ module.exports = {
     themeConfig: {
         personalInfo: {
             // your personal info to display in the info card
-            nickname: 'DawnMarch',
+            nickname: 'dawnmarch',
             description: 'Happy Coding<br/>Happy Life',
             email: 'wjqxhy@qq.com',
             location: 'ShenZhen City, China',
@@ -74,5 +74,32 @@ module.exports = {
                 exact: false
             },
         ]
+    },
+    markdown: {
+        toc: {
+          includeLevel: [2, 3, 4]
+        }
+      },
+      chainWebpack: (config, isServer) => {
+        if (isServer === false) {
+          config.node.set('Buffer', false)
+    
+          config.optimization.splitChunks({
+            maxInitialRequests: 5,
+            cacheGroups: {
+              vue: {
+                test: /[\\/]node_modules[\\/](vue|vue-router)[\\/]/,
+                name: 'vendor.vue',
+                chunks: 'all'
+              },
+              commons: {
+                test: /[\\/]node_modules[\\/]/,
+                priority: -10,
+                name: 'vendor.commons',
+                chunks: 'all'
+              }
+            }
+          })
+        }
     }
 }
