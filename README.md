@@ -1,6 +1,6 @@
 # [dawnmarch.github.io](http://dawnmarch.github.io)
 
-[![build status](https://travis-ci.org/DawnMarch/dawnmarch.github.com.svg?branch=dev)](https://travis-ci.org/DawnMarch/dawnmarch.github.com)
+[![build status](https://travis-ci.org/dawnmarch/dawnmarch.github.io.svg?branch=dev)](https://travis-ci.org/dawnmarch/dawnmarch.github.io)
 
 My Homepage Repo
 
