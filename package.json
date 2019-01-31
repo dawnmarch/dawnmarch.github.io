@@ -9,7 +9,7 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "vuepress": "^0.14.8",
-    "vuepress-theme-meteorlxy": "^0.2.6"
+    "vuepress": "^1.0.0-alpha.35",
+    "vuepress-theme-meteorlxy": "^1.0.0-alpha.10"
   }
 }

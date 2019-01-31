@@ -6,7 +6,7 @@ module.exports = {
     head: [
         ['link', {
             rel: 'icon',
-            href: '/assets/img/avator.jpg'
+            href: '/assets/img/avatar.jpg'
         }],
     ],
 
@@ -30,7 +30,7 @@ module.exports = {
             organization: 'Hunan University',
 
             // your avator image to display in the info card (related to the .vuepress/public directory)
-            avator: '/assets/img/avator.jpg',
+            avatar: '/assets/img/avatar.jpg',
 
             // your sns accounts to display in the page footer and the bottom of info card
             sns: {
@@ -75,15 +75,15 @@ module.exports = {
             },
         ]
     },
+
     markdown: {
         toc: {
             includeLevel: [2, 3, 4]
         }
     },
+
     chainWebpack: (config, isServer) => {
         if (isServer === false) {
-            config.node.set('Buffer', false)
-
             config.optimization.splitChunks({
                 maxInitialRequests: 5,
                 cacheGroups: {
