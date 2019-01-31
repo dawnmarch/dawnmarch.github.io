@@ -22,5 +22,5 @@ after_success:
   - git push --force --quiet "https://${access_token}@${GH_REPO}" master:master
 
 env:
- global:
-   - GH_REPO: github.com/dawnMarch/dawnmarch.github.io.git
+  global:
+    - GH_REPO: github.com/dawnMarch/dawnmarch.github.io.git
