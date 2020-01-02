@@ -70,7 +70,17 @@ module.exports = {
             text: 'About',
             link: '/about/',
             exact: false
-        }]
+        }],
+
+        comments: {
+            platform: 'github',
+            owner: 'dawnmarch',
+            repo: 'dawnmarch.github.io',
+            clientId: '400da36fcc0695bb367b',
+            clientSecret: '27111f1f0180fbbb76c40e1c8c645facf84aa338',
+            prefix: '[Comments] ',
+            labels: ['comments'],
+          },
     },
 
     markdown: {
