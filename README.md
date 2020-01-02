@@ -12,5 +12,5 @@ Themed by [vuepress-theme-meteorlxy](https://github.com/meteorlxy/vuepress-theme
 
 ```
 yarn
-yarn docs:dev
+yarn dev
 ```

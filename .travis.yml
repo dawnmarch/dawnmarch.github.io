@@ -10,10 +10,10 @@ install:
   - yarn
 
 script:
-  - yarn docs:build
+  - yarn build
 
 after_success:
-  - cd ./docs/.vuepress/dist
+  - cd ./dist
   - git init
   - git config user.name "dawnmarch"
   - git config user.email "wjqxhy@qq.com"
